@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>시간표</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>시간표</h1>
+      <div class="carousel" id="carousel">
+        <img src="./img/하니1.jpeg" alt="" />
+        <img src="./img/하니2.jpeg" alt="" />
+        <img src="./img/하니3.jpeg" alt="" />
+      </div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>시간</th>
+          <th>월요일</th>
+          <th>화요일</th>
+          <th>수요일</th>
+          <th>목요일</th>
+          <th>금요일</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="time">09:00 - 10:00</td>
+          <td colspan="5">QT, 운동후 샤워, 정신차리기</td>
+        </tr>
+        <tr>
+          <td class="time">10:00 - 11:00</td>
+          <td rowspan="2">데이터베이스 시스템</td>
+          <td rowspan="2">알고리즘</td>
+          <td rowspan="2">C프로그래밍</td>
+          <td rowspan="2">자격증 공부</td>
+          <td rowspan="2">공부 복습</td>
+        </tr>
+        <tr>
+          <td class="time">11:00 - 12:00</td>
+        </tr>
+        <tr>
+          <td class="time">12:00 - 13:00</td>
+          <td colspan="5">점심 휴게</td>
+        </tr>
+        <tr>
+          <td class="time">13:00 - 14:00</td>
+          <td rowspan="2">운영체제</td>
+          <td rowspan="2">인공지능</td>
+          <td rowspan="2">디지털논리회로</td>
+          <td rowspan="2">자유시간</td>
+          <td rowspan="2">공부 복습 또는 휴식</td>
+        </tr>
+        <tr>
+          <td class="time">14:00 - 15:00</td>
+        </tr>
+        <tr>
+          <td class="time">16:00 - 17:00</td>
+          <td colspan="5">독서</td>
+        </tr>
+        <tr>
+          <td class="time">17:00 - 22:30</td>
+          <td colspan="3">카페 아르바이트</td>
+          <td colspan="2"></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+  <script src="./carousel.js"></script>
+</html>
